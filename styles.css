@@ -1,0 +1,32 @@
+tcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    height: 650px;
+    width: 650px;
+    align-items: stretch;
+}
+
+firstrow, secondrow {
+    border-bottom: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+firstrow, secondrow, thirdrow {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    height: 60%;
+    width: 60%;
+    border-color: blue;
+    border-style: solid;
+}
+
+firstsq, secondsq, thirdsq {
+    border-style: solid;
+    border-color: orange;
+    height: 90%;
+    width: 90%;
+}
